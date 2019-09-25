@@ -7,7 +7,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #909090;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,5 +18,19 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #47da0d;
+}
+
+#emoji-search
+{
+  color:white;
+  text-align:center;
+  background:transparent;
+  border:none;
+  border-bottom: 1px white;
+}
+#emoji-search:focus
+{
+  background: rgba(255,255,255,.3);
+  border-radius: 2em;
 }
